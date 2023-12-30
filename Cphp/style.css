@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, serif;
+    background-color:rgb(53, 51, 51);
+}
+
+header {
+    background-color:#d66060;
+    color: rgb(53, 51, 51);
+    text-align: center;
+    padding: 10px 0;
+}
+form {
+    margin-left: 10px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(53, 51, 51);
+}
+h1 a{
+    text-decoration: underline none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#operation-container {
+    display: flex;
+}
+ 
+#operation-container a {
+    text-decoration: none;
+}
+
+.sub-operations {
+    display: none;
+    margin-left: 30px;
+}
+.form-control {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sub-operations button {
+    background-color: transparent;
+    color:rgb(26, 25, 25);
+    display: block;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+
+.sub-operations button:hover {
+    background-color: transparent;
+    color: #312f2f;
+    text-decoration: underline;
+}
+
+.left-align {
+    color:rgb(53, 51, 51);
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+h2 {
+    padding-left: 35%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#d66060;
+}
+h4, p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#d66060;
+}
+.col-sm-6 { 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    }
+    #num{
+        background-color: #eccccc;
+        color: black;
+    }
+    label{
+        font-family: cursive;
+        font-size: x-large;
+        color: #d66060;
+    }
+     #num1, #num2, #rayon, .nom, .prenom, .adresse, .ville, .codepos, #tva, #ht,#angle, #unite{
+        background-color: rgb(53, 51, 51);
+        color: beige;
+        border: 2px;
+        border-color: #d66060;
+        border-style:groove;
+    }
+    #calcul, #calculs, #soumettre{
+        background-color:#d66060;
+        color: rgb(53, 51, 51);
+        font-size: x-large;
+    }
+    #vendre, #acheter, #louer{
+        background-color:#d66060;
+        color: rgb(53, 51, 51);
+        font-size: x-large;
+    }
+    a{
+    text-decoration: underline none;
+    color:  rgb(53, 51, 51);
+    }
